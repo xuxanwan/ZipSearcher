@@ -591,7 +591,7 @@ public final class MainUI extends JFrame {
             } catch (BadLocationException e) {
                 e.printStackTrace();
                 throw new RuntimeException(e.getMessage(), e);
-            }catch (Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
@@ -602,7 +602,7 @@ public final class MainUI extends JFrame {
             } catch (BadLocationException e) {
                 e.printStackTrace();
                 throw new RuntimeException(e.getMessage(), e);
-            }catch (Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }
